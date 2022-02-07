@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.search-box {
+  transition: all 0.3s;
+  width: 0;
+  opacity: 0;
+}
+
+.search-box-active {
+  width: auto;
+  opacity: 1;
+}
+
+.price-container {
+  border-radius : 20px;
+  overflow: hidden;
+}
+
+.price-type {
+  background : #1f1f1f; 
+  color : white;
+  padding : 20px;
+}
+
+.price-text {
+  background : whitesmoke;
+  color : black;
+  padding : 20px;
+}
+
